@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css</title>
+  <style>
+    /*Element selector*/
+div{
+  background-color: aqua;
+  color: black;
+}
+/*Id selector*/
+#red{
+  font-size: medium;
+  font-family: sans-serif;
+  color: black;
+  background-color:firebrick;
+
+  /*pseudo selector*/
+  /*mouse link k hover kiya to bg color black hooga*/
+  a:hover{
+    background-color: black;
+  }
+/*mouse link k pass hover kiya to ptaa chalega ki active link hai*/
+  a:active{
+    background-color: green
+  }
+/*link jo visit nhi ki hai*/
+  a:link{
+    background-color: blue;
+  }
+/*link jo visit ki hai*/
+  a:visited{
+    background-color:pink;
+  }
+}
+  </style>
+</head>
+<body>
+  <!--1st div-->
+  <div id="red">
+    <p>I am rohit</p>
+  </div>
+
+  <!--2nd div-->
+  <div id="yellow">
+    <p>I am vikash</p>
+  </div>
+</body>
+</html>
